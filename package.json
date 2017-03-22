@@ -1,0 +1,17 @@
+{
+  "name": "lar",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "casperjs --web-security=no --cookies-file=./tmp/cookies.txt capture.js",
+    "version": "casperjs --version"
+  },
+  "author": "Yuji Nishimura (@nishim)",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "^1.1.3",
+    "casperjs-geolocation": "0.0.0",
+    "phantomjs": "^2.1.7"
+  }
+}
