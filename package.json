@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "casperjs --web-security=no --cookies-file=./tmp/cookies.txt capture.js",
+    "start": "mkdir img; mkdir tmp; casperjs --web-security=no --cookies-file=./tmp/cookies.txt capture.js",
     "version": "casperjs --version"
   },
   "author": "Yuji Nishimura (@nishim)",
